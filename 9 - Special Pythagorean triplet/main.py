@@ -2,10 +2,6 @@ import math
 
 res = 0
 
-a_res = 0
-b_res = 0
-c_res = 0
-
 for a in range(350):
     for b in range(a+1,500):
         c = 1000 - a - b
