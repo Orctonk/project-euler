@@ -20,9 +20,6 @@ maxTot = 0
 
 row = 0
 for i in range(len(splitData)):
-    if i == 5050:
-        print(row)
-        print(splitData[i])
     maxPath[i] += int(splitData[i])
 
     rowSum = sum(range(row+1))
