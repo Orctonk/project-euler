@@ -1,4 +1,3 @@
-from lcm import lcm
 from gcd import gcd
 
 def flc(f1,f2):
