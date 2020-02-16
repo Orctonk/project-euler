@@ -1,6 +1,6 @@
 import math
 
-def isPrime(val):
+def isPrime(val : int) -> bool:
     if(val == 2):
         return True
     elif(val < 2):

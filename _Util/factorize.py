@@ -1,6 +1,7 @@
 import math
+from typing import List
 
-def factorize(val):
+def factorize(val: int) -> List[int]:
     if(int(val) != val):
         return None
     if(val < 2):

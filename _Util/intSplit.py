@@ -1,6 +1,7 @@
 import math
+from typing import List
 
-def intSplit(num):
+def intSplit(num: int) -> List[int]:
     resList=[num]
     logterm = int(math.log10(num))
 
